@@ -1,0 +1,55 @@
+.pageIcon .fa-chevron-up {
+    padding-right: 25%;
+}
+
+.info .info-list ul li i {
+    margin-left: 7px;
+}
+
+footer .foot-top .footer-contact .title ul li i {
+    margin-left: 15px;
+}
+
+footer .foot-top .footer-contact .link-icons .fa-facebook-f, .about-info .info-links .fa-facebook-f {
+    margin-left: 5px;
+}
+
+nav .breadcrumb .fa-angle-left {
+    margin-right: 10px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+nav .breadcrumb .active {
+    padding-right: 0;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: none;
+    padding-left: 0;
+}
+
+header .menu .menu-list a {
+    margin-right: 25px;
+}
+
+header .menu .drop-down .sub-menu .sub-menu-list a:hover {
+    padding-right: 10px;
+}
+
+@media (max-width:991px) {
+    header .menu .drop-down a.main-service i {
+        right: 0px;
+        left: 25px;
+    }
+    header .menu .nav-lang a {
+        margin-right: 25px;
+    }
+    header .menu .drop-down .sub-menu .sub-menu-list {
+        padding-right: 30px;
+        padding-left: 15px;
+    }
+    header .menu .menu-list a {
+        margin-left: 0;
+    }
+}
